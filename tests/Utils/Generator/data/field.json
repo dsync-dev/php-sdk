@@ -1,0 +1,15 @@
+{
+  "id": null,
+  "treekey": "product.sku",
+  "value": null,
+  "type": "text",
+  "multiple": false,
+  "date_format": null,
+  "required": true,
+  "functions": [],
+  "primary_key": true,
+  "foreign_key": null,
+  "bool_settings": null,
+  "name": "sku",
+  "description": "A product SKU"
+}

@@ -1,0 +1,9 @@
+{
+  "entity_name": "order",
+  "treekey": "order",
+  "endpoint_url": "\/entity\/order",
+  "entity_token": "source-1-order-b5503a0ae5f3bc01b6a2da68afd33305",
+  "fields": [
+
+  ]
+}

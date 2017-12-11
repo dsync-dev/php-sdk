@@ -1,0 +1,29 @@
+{
+  "data_layout": [
+    {
+      "entity_name": "product",
+      "treekey": "product",
+      "endpoint_url": "\/entity\/product",
+      "entity_token": "source-1-product-b5503a0ae5f3bc01b6a2da68afd33305",
+      "fields": [
+        {
+          "id": null,
+          "treekey": "product.sku",
+          "value": null,
+          "type": "text",
+          "multiple": false,
+          "date_format": null,
+          "required": true,
+          "functions": [
+
+          ],
+          "primary_key": true,
+          "foreign_key": null,
+          "bool_settings": null,
+          "name": "sku",
+          "description": "A product SKU"
+        }
+      ]
+    }
+  ]
+}
