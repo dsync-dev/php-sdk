@@ -185,10 +185,10 @@ If using Symfony or something similar add the generated array to the response:
 $response = new JsonResponse();
 
 $responseArray = [
-	'status' => 200,
-	'message' => 'OK',
-	'detail' => '',
-	'data' => $datalayoutArray
+    'status' => 200,
+    'message' => 'OK',
+    'detail' => '',
+    'data' => $datalayoutArray
 ];
 
 $response->setData($responseArray);

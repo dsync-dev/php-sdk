@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="dsync/php-sdk" default="dev">
-	<target name="dev" depends="coding-fixes, coding-standards, unit-tests" />
-	<target name="coding-fixes" description="Fix coding standards errors">
-		<exec executable="vendor/bin/phpcbf" failonerror="true">
-			<arg value="-p" />
-			<arg value="--standard=phpcs.xml" />
-			<arg value="--extensions=php" />
-			<arg value="--colors" />
-			<arg path="src" />
-			<arg path="tests" />
-			<arg path="examples" />
-		</exec>
-	</target>
-	<target name="coding-standards" description="Find coding standards errors">
-		<exec executable="vendor/bin/phpcs" failonerror="true">
-			<arg value="-p" />
-			<arg value="--standard=phpcs.xml" />
-			<arg value="--extensions=php" />
-			<arg value="--colors" />
-			<arg path="src" />
-			<arg path="tests" />
-			<arg path="examples" />
-		</exec>
-	</target>
-	<target name="unit-tests" description="PHP unit tests">
-		<exec executable="vendor/bin/phpunit" failonerror="true">
+    <target name="dev" depends="coding-fixes, coding-standards, unit-tests" />
+    <target name="coding-fixes" description="Fix coding standards errors">
+        <exec executable="vendor/bin/phpcbf" failonerror="true">
+            <arg value="-p" />
+            <arg value="--standard=phpcs.xml" />
+            <arg value="--extensions=php" />
+            <arg value="--colors" />
+            <arg path="src" />
+            <arg path="tests" />
+            <arg path="examples" />
+        </exec>
+    </target>
+    <target name="coding-standards" description="Find coding standards errors">
+        <exec executable="vendor/bin/phpcs" failonerror="true">
+            <arg value="-p" />
+            <arg value="--standard=phpcs.xml" />
+            <arg value="--extensions=php" />
+            <arg value="--colors" />
+            <arg path="src" />
+            <arg path="tests" />
+            <arg path="examples" />
+        </exec>
+    </target>
+    <target name="unit-tests" description="PHP unit tests">
+        <exec executable="vendor/bin/phpunit" failonerror="true">
 
-		</exec>
-	</target>
+        </exec>
+    </target>
 </project>
