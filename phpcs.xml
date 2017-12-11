@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="dsync/php-sdk">
-	<exclude-pattern>vendor/</exclude-pattern>
-	<rule ref="PSR2"></rule>
+    <exclude-pattern>vendor/</exclude-pattern>
+    <rule ref="PSR2"></rule>
 </ruleset>
