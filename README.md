@@ -1,6 +1,6 @@
 # DSYNC PHP SDK
 
-PHP SDK for realtime synchorization with DSYNC
+PHP SDK for realtime synchronization with DSYNC
 
 ## Overview
 The DSYNC PHP SDK is a quick start bundle for developers who are interested in connecting 3rd party systems with the DSYNC platform. By crafting an external connector based on the SDK, your system will be automatically able to exchange data in near real-time with vast array of different systems, APIs, and databases already available on the DSYNC platform.
